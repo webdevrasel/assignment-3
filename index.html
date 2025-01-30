@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature's Platter</title>
+    <title>Organic Store</title>
     <!-- Google Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +13,42 @@
             font-family: "Sora", serif;
         }
     </style>
-
+    <!-- Links to the Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sora">
     <!-- header section start -->
-    <header>
-
+    <header class="bg-[#E0EACD]">
+        <section class="max-w-7xl m-auto px-4 py-3 lg:py-3">
+            <div class="flex items-center ">
+                <!-- left part -->
+                <div class="w-[30%]">
+                    <img class="lg:w-[40%]" src="images/organic-store-logo5.svg" alt="">
+                </div>
+                <!-- Center part -->
+                <div class="w-[40%]">
+                    <ul class="menu menu-horizontal p1-1 font-[600]  text-lg  hidden lg:flex">
+                        <li><a>Product</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- Right part -->
+                <div class="w-[30%]">
+                    <div class=" flex items-center justify-end gap-5 ">
+                    <i class="fa-solid fa-magnifying-glass text-lg  hidden lg:flex"></i>
+                    <i class="fa-solid fa-cart-shopping text-lg  hidden lg:flex"></i>
+                    <button class="btn btn-outline border-[#6A9739] hover:bg-[#6A9739] hover:border-[#6A9739]  hidden lg:flex">Login</button>
+                    <button class="py-3 px-10 rounded-md bg-[#6A9739] text-white font-[500] hidden lg:flex">Register</button>
+                    <i class="fa-solid fa-bars text-[40px] md:hidden"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <!-- header section End -->
     
